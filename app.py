@@ -14,15 +14,13 @@ Rodar:
 import streamlit as st
 import pandas as pd
 import numpy as np
-import scipy.stats as stats
+import scipy.stats as stats  # ← MUDANÇA AQUI!
+import time
+import warnings
 from scipy.optimize import brentq
-from scipy.stats import norm
 import plotly.graph_objects as go
 import plotly.express as px
 from plotly.subplots import make_subplots
-import time
-import warnings
-import itertools
 
 warnings.filterwarnings("ignore")
 
