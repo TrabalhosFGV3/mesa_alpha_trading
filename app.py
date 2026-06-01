@@ -14,7 +14,7 @@ Rodar:
 import streamlit as st
 import pandas as pd
 import numpy as np
-from scipy import stats
+import scipy.stats as stats
 from scipy.optimize import brentq
 from scipy.stats import norm
 import plotly.graph_objects as go
